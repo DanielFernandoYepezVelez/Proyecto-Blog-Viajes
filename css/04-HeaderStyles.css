@@ -1,0 +1,92 @@
+/* HERO(IMAGE) */
+
+.hero {
+    background-image: var(--fondoHero);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* HEADER COMPLETO */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+/* BARRA(logo) */
+
+.barra {
+    position: absolute;
+    background-color: var(--colorPrimario);
+    width: 100%;
+    top: 0;
+    padding: 0.5rem 0;
+}
+
+.barra .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .barra .contenedor {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo-img {
+    max-width: 20rem;
+}
+
+
+/* BARRA(MENU) */
+
+.navegacion ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacion li {
+    margin-bottom: 0.2rem;
+}
+
+.navegacion li:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .navegacion {
+        flex: 0 0 20rem;
+    }
+    .navegacion ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    color: var(--colorBlanco);
+    font-size: 1.2rem;
+}
+
+.header-contenido h1 {
+    color: var(--colorPrimario);
+    font-size: 2rem;
+    text-transform: uppercase;
+    max-width: 25rem;
+}

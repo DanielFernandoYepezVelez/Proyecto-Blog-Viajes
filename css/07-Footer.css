@@ -1,0 +1,72 @@
+.footer {
+    background-color: var(--colorPrimario);
+    padding-top: 1rem;
+    color: var(--colorBlanco);
+}
+
+.footer h2 {
+    text-transform: uppercase;
+}
+
+.footer .caja {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1100px) {
+    .footer .contenedor {
+        display: flex;
+    }
+    .footer .caja {
+        flex: 1;
+        text-align: start;
+    }
+}
+
+.sociales ul li span {
+    display: none;
+}
+
+.sociales ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.sociales ul li a {
+    text-decoration: none;
+}
+
+.sociales ul li a::before {
+    font-family: "Font Awesome 5 Brands";
+    color: var(--colorBlanco);
+    font-size: 1.8rem;
+}
+
+.sociales ul li a[href*="facebook.com"]::before {
+    content: "\f39e";
+}
+
+.sociales ul li a[href*="twitter.com"]::before {
+    content: "\f099";
+}
+
+.sociales ul li a[href*="youtube.com"]::before {
+    content: "\f167";
+}
+
+.sociales ul li a[href*="instagram.com"]::before {
+    content: "\f16d";
+}
+
+.sociales ul li a[href*="pinterest.com"]::before {
+    content: "\f0d2";
+}
+
+.copyRight {
+    background-color: #004d70;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    font-family: var(--fuentePrincipal);
+    font-size: 1.3rem;
+}

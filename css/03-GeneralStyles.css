@@ -1,0 +1,22 @@
+html {
+    box-sizing: var(--boxModel);
+}
+
+*,
+*::after,
+*::before {
+    margin: var(--margin);
+    padding: var(--padding);
+    box-sizing: inherit;
+}
+
+body {
+    background-image: var(--fondoImagen);
+    font-family: var(--fuentePrincipal);
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* box-shadow: 0 0 2px var(--colorGrisMedio); */
+}

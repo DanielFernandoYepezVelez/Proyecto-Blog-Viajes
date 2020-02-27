@@ -1,0 +1,32 @@
+:root {
+    /* BOX-SIZING */
+    --margin: 0;
+    --padding: 0;
+    --boxModel: border-box;
+    /*  */
+    /*  */
+    /* COLORES */
+    --colorPrimario: #008fd1;
+    --colorSecundario: #db008d;
+    --colorGrisMedio: #cccccc;
+    --colorBlanco: #ffffff;
+    --colorNegro: #000000;
+    /*  */
+    /*  */
+    /* FUENTES */
+    --fuentePrincipal: 'Libre Baskerville', sans-serif;
+    --fuenteSecundaria: Arial;
+    --fuenteTerciaria: Helvetica;
+    /*  */
+    /*  */
+    /* BACKGROUNG-IMAGE */
+    --fondoImagen: url('../assets/img/pattern.png');
+    --fondoHero: url('../assets/img/hero.jpg');
+    /*  */
+    /*  */
+    /* MEDIA QUERYS */
+    --iphone: 320px;
+    --telefono: 480px;
+    --tablet: 768px;
+    --desktop: 1200px;
+}
