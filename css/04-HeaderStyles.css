@@ -89,4 +89,44 @@
     font-size: 2rem;
     text-transform: uppercase;
     max-width: 25rem;
+    position: absolute;
+    left: 8px;
+}
+
+
+/* La media Querys estan de esta forma por el tema de la especificidad */
+
+@media only screen and (max-width: 1000px) {
+    .header-contenido h1 {
+        font-size: 2rem;
+        max-width: 23rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header-contenido h1 {
+        font-size: 1.7rem;
+        max-width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .header-contenido h1 {
+        font-size: 1.5rem;
+        max-width: 14rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .header-contenido h1 {
+        font-size: 1.3rem;
+        max-width: 12rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header-contenido h1 {
+        font-size: 1.1rem;
+        max-width: 8rem;
+    }
 }
